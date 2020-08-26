@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/RoUNd1HaCk/static/css/main.66b642b0.chunk.css",
+    "main.js": "/RoUNd1HaCk/static/js/main.5c1d2d51.chunk.js",
+    "main.js.map": "/RoUNd1HaCk/static/js/main.5c1d2d51.chunk.js.map",
+    "runtime-main.js": "/RoUNd1HaCk/static/js/runtime-main.ff716c48.js",
+    "runtime-main.js.map": "/RoUNd1HaCk/static/js/runtime-main.ff716c48.js.map",
+    "static/css/2.4e3056c5.chunk.css": "/RoUNd1HaCk/static/css/2.4e3056c5.chunk.css",
+    "static/js/2.36eb5054.chunk.js": "/RoUNd1HaCk/static/js/2.36eb5054.chunk.js",
+    "static/js/2.36eb5054.chunk.js.map": "/RoUNd1HaCk/static/js/2.36eb5054.chunk.js.map",
+    "index.html": "/RoUNd1HaCk/index.html",
+    "precache-manifest.1fcd530e0931659f5a465decb9aad664.js": "/RoUNd1HaCk/precache-manifest.1fcd530e0931659f5a465decb9aad664.js",
+    "service-worker.js": "/RoUNd1HaCk/service-worker.js",
+    "static/css/2.4e3056c5.chunk.css.map": "/RoUNd1HaCk/static/css/2.4e3056c5.chunk.css.map",
+    "static/css/main.66b642b0.chunk.css.map": "/RoUNd1HaCk/static/css/main.66b642b0.chunk.css.map",
+    "static/js/2.36eb5054.chunk.js.LICENSE.txt": "/RoUNd1HaCk/static/js/2.36eb5054.chunk.js.LICENSE.txt",
+    "static/media/notifications.css": "/RoUNd1HaCk/static/media/notification.c0d3c94c.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff716c48.js",
+    "static/css/2.4e3056c5.chunk.css",
+    "static/js/2.36eb5054.chunk.js",
+    "static/css/main.66b642b0.chunk.css",
+    "static/js/main.5c1d2d51.chunk.js"
+  ]
+}
