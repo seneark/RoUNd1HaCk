@@ -61,7 +61,7 @@ const InputField = () => {
 	};
 
 	return (
-		<div>
+		<div style={{marginBottom:50}}>
 			<form className={classes.root} noValidate autoComplete="off">
 				<TextField
 					id="standard-textarea"

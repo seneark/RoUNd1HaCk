@@ -16,14 +16,16 @@ class App extends Component {
 						<h1>TechQuest - HackIT</h1>
 					</Bounce>
 					<Bounce top delay="200">
-						<h2 className="Heading">Round 1</h2>						
+						<h2 className="Heading">Round 1</h2>
 					</Bounce>
 					<Bounce top delay="600">
 						<Content />
 					</Bounce>
 				</div>
+				<br/>
+				<br/>
 				<Bounce bottom>
-				<Footer />
+					<Footer />
 				</Bounce>
 
 				<NotificationContainer />

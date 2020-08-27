@@ -19,9 +19,6 @@ const Footer = () => {
 				flexDirection: "column",
 			}}
 		>
-			<br />
-			<br />
-			<br />
 			<div
 				style={{
 					border: "1px solid #fbecec",
