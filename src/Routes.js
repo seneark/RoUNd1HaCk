@@ -6,8 +6,8 @@ import Home from "./Views/home";
 const Routes = (props) => {
     return (
         <Switch>
-            <Route path="/" exact component={Home}/>
-            <Route path="/Round1" exact component={Round1}/>
+            <Route path={process.env.PUBLIC_URL + "/"} component={Home}/>
+            <Route path={process.env.PUBLIC_URL + "/Round1"} component={Round1}/>
         </Switch>
     );
 };
