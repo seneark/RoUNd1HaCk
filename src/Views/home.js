@@ -138,7 +138,7 @@ class Home extends Component {
                                 variant="outlined"
                                 color="secondary"
                             >
-                                <Link to={'/Round1'}>Go to First Round</Link>
+                                <Link to={process.env.PUBLIC_URL + '/Round1'}>Go to First Round</Link>
                             </Button>:
                             <Button
                                 variant="outlined"
