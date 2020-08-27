@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/RoUNd1HaCk/precache-manifest.26464c34aa6623c36aed560123a18059.js"
+  "/RoUNd1HaCk/precache-manifest.b48925105e0c9abda4308c960044bce5.js"
 );
 
 self.addEventListener('message', (event) => {
