@@ -94,7 +94,7 @@ const InputField = () => {
 						<Button
 							variant="outlined"
 							color="secondary"
-							href="#outlined-buttons"
+							href={process.env.REACT_APP_NEXT_ROUND}
 						>
 							Next Round
 						</Button>

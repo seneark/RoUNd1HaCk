@@ -6,7 +6,6 @@ import Bounce from "react-reveal/Bounce";
 import Content from "./Components/Content";
 import Footer from "./Components/Footer";
 
-import Button from "@material-ui/core/Button";
 import { NotificationContainer } from "react-notifications";
 class App extends Component {
 	render() {
@@ -14,14 +13,7 @@ class App extends Component {
 			<div className="App">
 				<div>
 					<Bounce top>
-						<h1>D_CODER</h1>
-						<Button
-							variant="outlined"
-							color="secondary"
-							href="#outlined-buttons"
-						>
-							Register at Google Form first
-						</Button>
+						<h1>TechQuest - HackIT</h1>
 					</Bounce>
 					<Bounce top delay="200">
 						<h2 className="Heading">Round 1</h2>						
@@ -30,7 +22,9 @@ class App extends Component {
 						<Content />
 					</Bounce>
 				</div>
+				<Bounce bottom>
 				<Footer />
+				</Bounce>
 
 				<NotificationContainer />
 			</div>

@@ -54,7 +54,7 @@ const useStyles = makeStyles({
 const Content = () => {
 	const classes = useStyles();
 
-	const isPortrait = useMediaQuery({ query: '(max-width: 1224px)' })
+	const isPortrait = useMediaQuery({ query: "(max-width: 1224px)" });
 	return (
 		<div
 			className="Content"
@@ -64,11 +64,14 @@ const Content = () => {
 		>
 			<h1>Find Binod's Country</h1>
 			<p>
-				After getting so famous Binod wanted to flee to a not know to
-				anyone so he went into a Secret Hiding and thus went missing.
-				But, for his friends and fans he left a Clue about which country
-				he fled to.
+				The mysterious guy BINOD has been abducted, we know nothing
+				about his location. Terrorists took him into secret hiding and
+				thus he is missing. But they left a clue about which country
+				they fled to.<br/> The clue says : <br />
+				We are all the same. All the same. Longing to find our way back.
+				Back to the one. Back to the only one!
 			</p>
+			
 			<TableContainer component={Paper}>
 				<Table className={classes.table} aria-label="customized table">
 					<TableHead>
@@ -95,9 +98,10 @@ const Content = () => {
 					</TableBody>
 				</Table>
 			</TableContainer>
+			<h2>Question:</h2>
 			<p>
-				If You are a Friend or Fans of Binod then Decode the output of
-				this message to find the country name 
+				You have the responsibility to complete the mission , decode the
+				output of the given message to find the country name.
 			</p>
 			<TableContainer component={Paper}>
 				<Table className={classes.table} aria-label="customized table">
@@ -108,22 +112,22 @@ const Content = () => {
 						</TableRow>
 					</TableHead>
 					<TableBody>
-							<StyledTableRow>
-								<StyledTableCell
-									component="th"
-									scope="row"
-									style={{ color: "white" }}
-								>
-									6adsafda@#sdfdf$%%
-								</StyledTableCell>
-								<StyledTableCell style={{ color: "#e33371" }}>
-									Find the Answer
-								</StyledTableCell>
-							</StyledTableRow>
+						<StyledTableRow>
+							<StyledTableCell
+								component="th"
+								scope="row"
+								style={{ color: "white" }}
+							>
+								6adsafda@#sdfdf$%%
+							</StyledTableCell>
+							<StyledTableCell style={{ color: "#e33371" }}>
+								Find the Answer
+							</StyledTableCell>
+						</StyledTableRow>
 					</TableBody>
 				</Table>
 			</TableContainer>
-			<br/>
+			<br />
 
 			<InputField />
 		</div>
